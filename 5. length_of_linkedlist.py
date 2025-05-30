@@ -26,7 +26,18 @@ def take_input():
             temp.next = newNode
         value = int(input("Enter the value of Node:-"))
     return head
-newhead = take_input()
-print_ll(newhead)
 
+def lenghtofll(head):
+    temp = head
+    ans=0
+    while(temp!=None):
+        temp = temp.next
+        ans = ans+1
+    return ans
+
+
+newhead = take_input()
+length=lenghtofll(newhead)
+print_ll(newhead)
+print(length)
 
