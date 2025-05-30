@@ -36,6 +36,8 @@ def lenghtofll(head):
     return ans
 
 
+
+
 newhead = take_input()
 length=lenghtofll(newhead)
 print_ll(newhead)
